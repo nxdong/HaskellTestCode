@@ -1,0 +1,1 @@
+bommBangs xs = [if x < 100 then "小于100"else "大于100"|x <- xs,odd x]
